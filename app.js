@@ -57,3 +57,12 @@ for(var i = 0; i < myFavArtist.length; i++) {
     var eachPerson = myFavArtist[i]; // first starts at index 0 Nipsey Hussle, Tupac Shakur, Bruce Lee
     console.log(eachPerson)
 }
+
+//with array use const allows you not change that data type
+const cars = ['Honda', 'Tesla', 'Toyota'] //error array to string
+console.log(cars);
+
+for(let i = 0; i < cars.length; i++) {
+    let eachCar = cars[i]; // Honda, Tesla, Toyota..
+    console.log(eachCar)
+}
