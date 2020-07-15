@@ -66,3 +66,71 @@ for(let i = 0; i < cars.length; i++) {
     let eachCar = cars[i]; // Honda, Tesla, Toyota..
     console.log(eachCar)
 }
+
+
+// var otherNumbers = 1
+// otherNumbers =+ 1
+// otherNumbers = otherNubers + 1
+
+// let i = 0; 
+// i = i + 1;
+// i =+ 1;
+// i==;
+
+//Objects 
+//key: value pairs 
+
+const rome = {
+    fullName: 'Rome Bell', 
+    age: 32, 
+    myLocation: 'Los Angelos',
+    placesTraveled: [ 'Kentucky', 'Ohio', 'New York', 'Washington DC']
+}
+
+console.log(rome);
+
+//myLocation
+
+console.log(rome.myLocation);
+
+//print New York
+
+console.log(rome.placesTraveled[2])
+
+const myReallyCoolPost = {
+    username: '@generalassembly',
+    likes: 1200,
+    comments: ['really cool post', 'nice', 'javascript is cool', 'woah'],
+    caption: 'Day 3 of SEI',
+    picture: 'https://instagramd.com/generallassembly..',
+    shares: 12 
+
+}
+
+console.log(myReallyCoolPost)
+myReallyCoolPost.myLocation = 'San Fran';
+console.log(myReallyCoolPost)
+//likes, captions, shares, comments, username, picture
+
+
+//instagram post object
+
+const myGrabPost = {
+    myUserName = '@chamon562',
+    likes: 20,
+    comments: ['nice post', 'fresh', 'java is dope'],
+    caption: 'Day 3 of SEI is tough',
+    picture: 'https://instagram.com/chamon562...'
+    shared: 4
+}
+console.log(myGrabPost)
+
+const fourthOfJulyPost = {
+    username: '@ga'
+};
+
+fourthOfJulyPost.pictures = 'https://instagram.com/..';
+fourthOfJulyPost['likes'] = 15;
+fourthOfJulyPost.comments = ['ok'];
+fourthOfJulyPost.caption = 'writing code on the 4th';
+console.log(fourthOfJulyPost);
