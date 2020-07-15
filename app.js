@@ -45,3 +45,15 @@ for(var i = 0; i < teams.length; i++){
     var eachTeam = teams[i]; // Rockets 0, Lakers 1, Warriors 2 ...
     console.log(eachTeam);
 }
+
+// make an array 
+// use for loop iterate(go one by one)
+//print each element
+
+var myFavArtist = ['Nipsey Hussle', 'Tupac Shakur', 'Bruce Lee']
+console.log(myFavArtist)
+
+for(var i = 0; i < myFavArtist.length; i++) {
+    var eachPerson = myFavArtist[i]; // first starts at index 0 Nipsey Hussle, Tupac Shakur, Bruce Lee
+    console.log(eachPerson)
+}
