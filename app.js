@@ -28,7 +28,20 @@ while (myOtherNumber < numberTwo){
 
 var people = 15;
 var morePeople = 5
-while (morePeople > people) {
+while (morePeople < people) {
     console.log(morePeople);
     morePeople +=1;
+}
+
+// for loops
+
+for (var i = 0; i < 10; i++){
+    console.log(i); // 0, 1, going to change to 2 then less than 10, 3, ...
+}
+
+// printing teams 
+for(var i = 0; i < teams.length; i++){
+    // console.log(teams[i])
+    var eachTeam = teams[i]; // Rockets 0, Lakers 1, Warriors 2 ...
+    console.log(eachTeam);
 }
