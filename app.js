@@ -121,7 +121,7 @@ const myGrabPost = {
     comments: ['nice post', 'fresh', 'java is dope'],
     caption: 'Day 3 of SEI is tough',
     picture: 'https://instagram.com/chamon562...'
-    shared: 4
+    shares: 4
 }
 console.log(myGrabPost)
 
@@ -133,4 +133,57 @@ fourthOfJulyPost.pictures = 'https://instagram.com/..';
 fourthOfJulyPost['likes'] = 15;
 fourthOfJulyPost.comments = ['ok'];
 fourthOfJulyPost.caption = 'writing code on the 4th';
+
 console.log(fourthOfJulyPost);
+
+//Functions help make code dry es5 way
+console.log('Hello');
+
+function sayHello(){
+    //write code 
+    //write logic use functions and put algorithms in those
+    console.log('Hello');
+
+}
+
+sayHello(); //calling the function by invoking it<--
+sayHello();
+
+//function expression
+const sayHelloAgain = function() {
+console.log('Hello Again');
+};
+
+sayHelloAgain();
+
+//arrow function
+const sayHelloFinal = () => {
+    console.log('Hello for the lst time');
+
+}
+
+sayHelloFinal();
+
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const otherNumbers = [10, 20, 30, 40, 50, 60, 70, 80, 90];
+
+function printNumbers(array) {
+    for ( let i = 0; i < array.length i++)
+    let num = array[i];
+    console.log(num);// print my numbers 
+    //then passing in other numbers
+    //let num be i which is 10
+    //changes to 1 which is element 1 cus its less than array.length 20
+    // then 30
+}
+
+printNumbers(numbers);
+printNumbers(otherNumber);
+
+
+if (num < 50) {
+    console.log(' This number is less than 50: ' + num)
+} else {
+    console.log('This number is greater than 40: ' + num)
+}
+
