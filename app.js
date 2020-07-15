@@ -25,3 +25,10 @@ while (myOtherNumber < numberTwo){
     console.log(myOtherNumber); //this will print 10,11,12
     myOtherNumber += 1; //11,12,13 this is the counter to stop it looping
 }
+
+var people = 15;
+var morePeople = 5
+while (morePeople > people) {
+    console.log(morePeople);
+    morePeople +=1;
+}
