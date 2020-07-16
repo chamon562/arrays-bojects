@@ -104,7 +104,6 @@ const myReallyCoolPost = {
     caption: 'Day 3 of SEI',
     picture: 'https://instagramd.com/generallassembly..',
     shares: 12 
-
 }
 
 console.log(myReallyCoolPost)
@@ -116,13 +115,14 @@ console.log(myReallyCoolPost)
 //instagram post object
 
 const myGrabPost = {
-    myUserName = '@chamon562',
+    me: 'Channee Math',
     likes: 20,
     comments: ['nice post', 'fresh', 'java is dope'],
     caption: 'Day 3 of SEI is tough',
-    picture: 'https://instagram.com/chamon562...'
+    picture: 'https://instagram.com/chamon562...',
     shares: 4
 }
+
 console.log(myGrabPost)
 
 const fourthOfJulyPost = {
@@ -136,7 +136,7 @@ fourthOfJulyPost.caption = 'writing code on the 4th';
 
 console.log(fourthOfJulyPost);
 
-//Functions help make code dry es5 way
+// //Functions help make code dry es5 way
 console.log('Hello');
 
 function sayHello(){
@@ -146,10 +146,10 @@ function sayHello(){
 
 }
 
-sayHello(); //calling the function by invoking it<--
-sayHello();
+   sayHello(); //calling the function by invoking it<--
+   sayHello();
 
-//function expression
+// //function expression
 const sayHelloAgain = function() {
 console.log('Hello Again');
 };
@@ -164,20 +164,19 @@ const sayHelloFinal = () => {
 
 sayHelloFinal();
 
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 const otherNumbers = [10, 20, 30, 40, 50, 60, 70, 80, 90];
 
 function printNumbers(array) {
-    for ( let i = 0; i < array.length i++)
+    for (let i = 0; i < array.length; i++){
     let num = array[i];
+    
     console.log(num);// print my numbers 
+    }
     //then passing in other numbers
     //let num be i which is 10
     //changes to 1 which is element 1 cus its less than array.length 20
     // then 30
 }
-
-printNumbers(numbers);
 printNumbers(otherNumber);
 
 
@@ -187,3 +186,19 @@ if (num < 50) {
     console.log('This number is greater than 40: ' + num)
 }
 
+printNumbers(otherNumber);
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+function addNumbers(array) {
+    let result = 0;
+    
+    for (let i = 0; i < array.length; i++){
+        let num = array[i];//1,2,3,4,5
+        
+        result += num;//1, 4, 6, 10, 15 ...
+    }
+    return result; // when you return something it returns somehting at the end still ahve to print
+    
+}
+
+console.log(addNumbers(numbers)) ;
+console.log(myResult);
